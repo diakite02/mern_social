@@ -1,0 +1,28 @@
+.onlinefriends {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    .profile-greendDot {
+        position: relative;
+        .onlinefriendProfile {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+        .greenDot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: limegreen;
+            position: absolute;
+            top: -5px;
+            right: -3px;
+        }
+    }
+    .friendOnlineName {
+        font-size: medium;
+        font-weight: bolder;
+        margin-left: 15px;
+    }
+}

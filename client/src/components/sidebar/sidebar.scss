@@ -1,0 +1,33 @@
+.sidebar {
+    flex: 2;
+    height: calc(100vh - 50px);
+    top: 50px;
+    overflow-y: scroll;
+    .sidebarList {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        list-style: none;
+        li {
+            display: flex;
+            align-items: center;
+            .sidebarIconText {
+                margin-left: 15px;
+            }
+        }
+    }
+    .hrbetwenlist {
+        margin: 20px 10px;
+    }
+    .sidebarbutton {
+        align-self: center;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    .friendslist {
+        list-style: none;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,53 @@
+.profile {
+    display: flex;
+    .profileTopRight {
+        flex: 9;
+        .profileTopRightcover {
+            height: 400px;
+            margin-left: 20px;
+            .imgCovert {
+                position: relative;
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+            .propilePicture {
+                height: 200px;
+                width: 200px;
+                position: absolute;
+                border-radius: 50%;
+                border: 5px solid white;
+                object-fit: contain;
+                left: 55%;
+                top: 30%;
+            }
+        }
+        .profileInfo {
+            padding: 8px;
+            margin-left: 49%;
+            margin-top: 40px;
+            .proileName {
+                font-size: 23px;
+                font-weight: bolder;
+            }
+            .proileActuelite {
+                font-size: 23px;
+            }
+        }
+        .profileTopBottom {
+            display: flex;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+::-webkit-scrollbar-track {
+    background-color: aliceblue;
+}

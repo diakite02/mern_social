@@ -1,0 +1,41 @@
+.share {
+    box-shadow: 0 1px 7px 0;
+    border-radius: 10px;
+    padding: 20px;
+    .shareTop {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        .shareProfilePicture {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: contain;
+            margin-right: 15px;
+        }
+        .shareTopinput {
+            width: 80%;
+            border: none;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .shareHr {
+        margin: 20px;
+    }
+    .shareBoutom {
+        .shareIconsContainer {
+            display: flex;
+            .shareIcon-text {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-left: 15px;
+                .shareIcon {
+                    margin-right: 3px;
+                }
+            }
+        }
+    }
+}

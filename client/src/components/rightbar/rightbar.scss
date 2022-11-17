@@ -1,0 +1,66 @@
+.rightbar {
+    flex: 4;
+    height: calc(100vh - 50px);
+    top: 50px;
+    padding: 10px;
+    height: 100%;
+    box-shadow: 0 1px 7px 0;
+    margin: 10px 10px;
+    border-radius: 10px;
+    .rightbarTopBirthday {
+        display: flex;
+        align-items: center;
+        .birthday {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+            object-fit: contain;
+        }
+    }
+    .rightbarBottomBirthday {
+        .rightbarBottomBirthdayImg {
+            width: 470px;
+            height: 400px;
+            border-radius: 10px;
+        }
+    }
+    .rightBarOnligesFriends {
+        margin: 20px 0;
+    }
+    .onlineFriendList {
+        list-style: none;
+    }
+    // rightbar for profile pages
+    .rightbartile {
+        margin: 10px;
+        text-align: center;
+    }
+    .rigtbarInfo {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .righbarInfoItem {
+            .rightbarInfoKey {
+                font-weight: bolder;
+                text-transform: capitalize;
+            }
+        }
+    }
+    .rihgtbarFollowingFriends {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        .rihgtbarFollowingFriend {
+            .friendPP {
+                width: 100px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+    }
+}

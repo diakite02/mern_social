@@ -1,0 +1,83 @@
+.Topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 5px 10px;
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    .topbarLeft {
+        flex: 3;
+        .topbarlogo {
+            font-weight: bolder;
+            font-size: 23px;
+            color: #fff;
+        }
+    }
+    .topbarcenter {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        width: 600px;
+        padding: 5px;
+        border-radius: 8px;
+        flex: 4;
+        .topbarsearchbar {
+            width: 100%;
+            border: none;
+            text-align: center;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .topbarRight {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 3;
+        .topLinks {
+            display: flex;
+            color: #fff;
+            .toplink {
+                margin-left: 15px;
+                cursor: pointer;
+            }
+        }
+        .topbarIcons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .topIcon {
+                position: relative;
+                margin-left: 15px;
+                .topSingleIcon {
+                    color: #fff;
+                    font-size: 30px
+                }
+                .topbarIconspan {
+                    height: 20px;
+                    width: 20px;
+                    background-color: red;
+                    border-radius: 50%;
+                    position: absolute;
+                    color: white;
+                    text-align: center;
+                    top: -8px;
+                    right: -5px;
+                }
+            }
+        }
+        .topbarProfile {
+            .topbarprofileImg {
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                object-fit: contain;
+                border: 3px solid white;
+            }
+        }
+    }
+}
